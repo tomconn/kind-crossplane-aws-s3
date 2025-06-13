@@ -1,7 +1,3 @@
-Of course! Here is a README.md file for your GitHub repository, structured to explain the project, its components, and how to use it. The markdown uses ````` for code blocks as requested.
-
----
-
 # Crossplane AWS S3 Provisioner Demo
 
 This project demonstrates how to provision and manage AWS resources (specifically an S3 bucket) from a local Kubernetes cluster using [Crossplane](https://crossplane.io).
