@@ -50,6 +50,15 @@ Before you begin, ensure you have the following tools installed and configured:
 
 The `provisioner.sh` script handles the entire lifecycle.
 
+Provision and delete the bucket
+```sh
+./provision.sh
+```
+
+```sh
+./provision.sh cleanup
+```
+
 ### Provision Resources
 
 This command will create the `kind` cluster, install Crossplane, configure the AWS provider, and create the S3 bucket defined in `crossplane/02-s3.yaml`.
