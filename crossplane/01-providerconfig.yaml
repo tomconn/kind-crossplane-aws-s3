@@ -1,0 +1,13 @@
+# Step 2: Configure the provider. This can only be applied AFTER
+# the Provider package from 00-provider.yaml is healthy.
+apiVersion: aws.upbound.io/v1beta1
+kind: ProviderConfig
+metadata:
+  name: default
+spec:
+  credentials:
+    source: Secret
+    secretRef:
+      namespace: crossplane-system
+      name: aws-secret
+      key: creds
