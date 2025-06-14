@@ -25,7 +25,7 @@ The process is as follows:
 
 Before you begin, ensure you have the following tools installed and configured:
 
-*   **[Rancher Desktop](https://rancherdesktop.io/)** or Docker Desktop.
+*   **[Rancher Desktop](https://rancherdesktop.io/)** or Docker Desktop. Ensure enough CPU and RAM is allocated ![Rancher Desktop](./rancher-desktop.png)
 *   **[AWS CLI](https://aws.amazon.com/cli/)**: Must be configured with your credentials. The script specifically looks for `~/.aws/credentials`.
 *   **[Kubernetes `kind`](https://kind.sigs.k8s.io/)**: For running a local Kubernetes cluster.
 *   **[Helm](https://helm.sh/)**: For installing Crossplane.
