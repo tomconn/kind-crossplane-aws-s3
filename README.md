@@ -4,6 +4,8 @@ This project demonstrates how to provision and manage AWS resources (specificall
 
 The entire workflow is automated via a single shell script (`provisioner.sh`) that sets up a local [Kubernetes `kind`](https://kind.sigs.k8s.io/) cluster, installs Crossplane, configures the AWS provider, and provisions an S3 bucket. This setup runs locally within [Rancher Desktop](https://rancherdesktop.io/) or any other container runtime that supports `kind`.
 
+Uses the example from [AWS Quickstarts](https://docs.crossplane.io/latest/getting-started/provider-aws/), with additional automation.
+
 ## How It Works
 
 The magic of Crossplane is its ability to extend the Kubernetes API. Instead of managing `Pods` and `Deployments`, you can manage cloud resources like `Buckets` and `Databases` with `kubectl apply`.
